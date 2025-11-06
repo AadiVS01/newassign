@@ -1,6 +1,6 @@
 # E-Commerce Shopping Cart Application
 
-A full-stack shopping cart application built for the Vibe Commerce coding assignment. This application demonstrates a complete e-commerce flow with add/remove items, cart management, and mock checkout functionality.
+A full-stack shopping cart application built for the Vibe Commerce coding assignment. This repository includes the backend API and a React + Vite frontend. The `ecom-assignment/frontend/public/images/screenshots` folder contains annotated screenshots that show key flows — they're embedded below to help reviewers quickly understand the app.
 
 ## 🛍️ Features
 
@@ -34,6 +34,47 @@ A full-stack shopping cart application built for the Vibe Commerce coding assign
 - **Axios** for API communication
 - **Tailwind CSS** for responsive styling
 - **Vite** for fast development and building
+
+## 🖼️ Screenshots
+
+Below are screenshots from the app with short captions. The images are included in the repository at `ecom-assignment/frontend/public/images/screenshots/`.
+
+- Product catalog (grid view):
+
+  ![Product Catalog](ecom-assignment/frontend/public/images/screenshots/productCatalog.png)
+
+  A responsive grid listing the available products with prices and "Add to Cart" actions.
+
+- Product detail page:
+
+  ![Product Page](ecom-assignment/frontend/public/images/screenshots/productpage.png)
+
+  The detailed product view with description, image, and quantity selector.
+
+- Cart page (cart management):
+
+  ![Cart Page](ecom-assignment/frontend/public/images/screenshots/CartPage.png)
+
+  Cart view showing items, editable quantities, remove buttons, and order totals.
+
+- Admin page (products list & edit):
+
+  ![Admin Page](ecom-assignment/frontend/public/images/screenshots/AdminPage.png)
+
+  Admin dashboard to view products, navigate to edit, and add new products.
+
+- Admin product edit modal/page:
+
+  ![Admin Edit](ecom-assignment/frontend/public/images/screenshots/AdminEdit.png)
+
+  Edit product details and images from the admin UI.
+
+- Order receipt / confirmation:
+
+  ![Order Receipt](ecom-assignment/frontend/public/images/screenshots/OrderRecieptPage.png)
+
+  Receipt modal shown after completing checkout, with order ID and summary.
+
 
 ## 📦 Installation & Setup
 
